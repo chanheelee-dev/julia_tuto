@@ -29,7 +29,7 @@ println()
 # unicode letters
 println("** unicode letters **")
 δ = 1.23        # \delta -> δ
-println(δ * 22) # use like other bletters
+println(δ * 22) # use like other letters
 println(π + 1)  # pi is built-in constant ('pi' works too)
 println(3 ≥ 1)  # there are unicode operators such as ∈, ∉, ≂̸(\nequiv), 
 println()
