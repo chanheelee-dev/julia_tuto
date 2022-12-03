@@ -6,12 +6,20 @@ b = 0b101101        # binary number starts with '0b'
 println(b)          # prints '45'
 println()
 
+
+# floats
+
+
+# rational numbers
+
+
 # unicode letters
 println("** unicode letters **")
 δ = 1.23        # \delta -> δ
 println(δ * 22) # use like other bletters
 println(π + 1)  # pi is built-in constant ('pi' works too)
 println()
+
 
 # imaginary number
 println("** imaginary numbers **")
@@ -23,10 +31,14 @@ println(abs(some_imaginary))    # 2.23 (abs value = sqrt(abs2))
 println(some_imaginary^2)       # -3 + 4im
 
 # about NaN
+println("** NaN **")
 nan_num = NaN
 println(nan_num)      # just print 'NaN'
 println(nan_num * 2)  # still NaN
+println()
 
 # about Inf
+println("** Inf **")
 println(Inf / 2)      # still Inf
 println(typeof(Inf))  # the type is Float64
+println()
